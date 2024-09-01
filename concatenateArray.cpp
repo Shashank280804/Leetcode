@@ -2,10 +2,11 @@
 #include <vector>
 #include <bits/stdc++.h>
 #include <algorithm>
+using namespace std;
 
 class Solution
 {
-    vector<int> concatenateArray(vector<int> nums)
+    vector<int> concatenateArray(vector<int>& nums)
     {
         int n = nums.size();
         vector<int> ans(2 * n);
