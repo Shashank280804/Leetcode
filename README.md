@@ -1,1 +1,1 @@
-All practice dsa questions
+Practice
