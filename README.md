@@ -1,1 +1,1 @@
-Leetcode DSA Questions.
+Leetcode All DSA Questions.
