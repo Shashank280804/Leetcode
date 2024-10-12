@@ -1,3 +1,11 @@
+/*
+Algorithm:
+Step 1: Initialize hash_table[] with size 1,000,001, setting all values to false.
+Step 2: For add(key), set hash_table[key] = true.
+Step 3: For remove(key), set hash_table[key] = false.
+Step 4: For contains(key), return hash_table[key]
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 class MyHashSet {
