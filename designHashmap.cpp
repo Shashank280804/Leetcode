@@ -1,3 +1,10 @@
+/*
+Algorithm:
+Step 1: Initialize a mp[] array of size 1,000,001 and set all elements to -1.
+Step 2: For put(key, value), set mp[key] = value.
+Step 3: For get(key), return mp[key] (or -1 if mp[key] == -1).
+Step 4: For remove(key), set mp[key] = -1.
+*/
 class MyHashMap {
 public:
 int mp[1000001];
