@@ -7,22 +7,27 @@ Step 4: For remove(key), set mp[key] = -1.
 */
 class MyHashMap {
 public:
-int mp[1000001];
-    MyHashMap() {
-        for(int i =0;i<1000001;i++){
-        mp[i]=-1;
+    int mp[1000001]; // Define an array of size 1000001 to store key-value pairs
+
+    MyHashMap() {  
+        // Initialize all elements in the array to -1 (indicating empty slots)
+        for (int i = 0; i < 1000001; i++) {  
+            mp[i] = -1;  
+        }
     }
- }
-    void put(int key, int value) {
-        mp[key]=value;
+
+    void put(int key, int value) {  
+        // Store the value at the index corresponding to the key
+        mp[key] = value;  
     }
-    
-    int get(int key) {
-        return mp[key];
+
+    int get(int key) {  
+        // Return the value associated with the key
+        return mp[key];  
     }
-    
-    void remove(int key) {
-        mp[key]=-1;
+
+    void remove(int key) {  
+        // Remove the key by setting its value to -1 (indicating deletion)
+        mp[key] = -1;  
     }
 };
-
